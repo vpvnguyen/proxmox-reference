@@ -2,6 +2,8 @@
 
 ## Setup
 
+- Install Docker: https://docs.docker.com/engine/install/ubuntu/
+
 - Install Docker Compose
 
 ```
@@ -18,7 +20,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ```
 sudo docker volume create portainer_data
-
 ```
 
 - Create the Portainer container
@@ -31,7 +32,6 @@ sudo docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart always -
 
 ```
 sudo docker start portainer
-
 ```
 
 - Portainer should now be running at port `9000`
