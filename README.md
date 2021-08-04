@@ -20,3 +20,5 @@ passwd PASSWORD
 groupadd GROUP_NAME
 usermod -a -G GROUP_NAME USERNAME
 ```
+
+### Kill PID
